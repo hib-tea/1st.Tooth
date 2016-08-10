@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quiz3">
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="120dp"
+        android:text="제출"
+        android:textSize="20dp"
+        android:id="@+id/submit1"
+
+        android:layout_marginTop="52dp"
+        android:layout_below="@+id/option1"
+        android:layout_centerHorizontal="true" />
+
+    <RadioButton
+        android:id="@+id/option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Centeral Incisor"
+        android:textSize="30dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <RadioButton
+        android:id="@+id/option3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Bicuspid"
+        android:textSize="30dp"
+        android:layout_below="@+id/option2"
+        android:layout_alignStart="@+id/option2" />
+
+    <RadioButton
+        android:id="@+id/option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Molar"
+        android:textSize="30dp"
+        android:layout_below="@+id/option3"
+        android:layout_alignStart="@+id/option3" />
+</RelativeLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/teth">
+
+    <Button
+        android:background="#00000000"
+        android:layout_height="20dp"
+        android:layout_width="20dp"
+        android:id="@+id/ut1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp" />
+    <Button
+        android:background="#00000000"
+        android:layout_height="30dp"
+        android:layout_width="20dp"
+        android:id="@+id/ut2"
+        android:layout_alignTop="@+id/ut1"
+        android:layout_toStartOf="@+id/ut1" />
+    <Button
+        android:background="#00000000"
+        android:layout_height="15dp"
+        android:layout_width="15dp"
+        android:id="@+id/ut3"
+        android:layout_below="@+id/ut1"
+        android:layout_toStartOf="@+id/ut2" />
+    <Button
+        android:background="#00000000"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:id="@+id/ut4"
+        android:layout_below="@+id/ut2"
+        android:layout_toStartOf="@+id/ut3" />
+    <Button
+        android:background="#00000000"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:id="@+id/ut5"
+        android:layout_below="@+id/ut4"
+        android:layout_toStartOf="@+id/ut4" />
+    <Button
+        android:background="#00000000"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:id="@+id/ut6"
+        android:layout_below="@+id/ut5"
+        android:layout_alignStart="@+id/ut5" />
+    <Button
+        android:background="#00000000"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:id="@+id/ut7"
+        android:layout_below="@+id/ut6"
+        android:layout_alignStart="@+id/ut6" />
+    <Button
+        android:background="#00000000"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:id="@+id/ut8"
+        android:layout_below="@+id/ut7"
+        android:layout_toStartOf="@+id/ut7" />
+    <Button
+        android:background="#00000000"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:id="@+id/ut12"
+        android:layout_alignBottom="@+id/ut3"
+        android:layout_toEndOf="@+id/ut1" />
+    <Button
+        android:background="#00000000"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:id="@+id/ut22"
+        android:layout_alignBottom="@+id/ut3"
+        android:layout_toEndOf="@+id/ut12" />
+    <Button
+        android:background="#00000000"
+        android:layout_height="30dp"
+        android:layout_width="10dp"
+        android:id="@+id/ut32"
+        android:layout_below="@+id/ut1"
+        android:layout_toEndOf="@+id/ut22" />
+    <Button
+        android:background="#00000000"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:id="@+id/ut42"
+        android:layout_alignTop="@+id/ut4"
+        android:layout_toEndOf="@+id/ut22" />
+<Button
+    android:background="#00000000"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:id="@+id/ut52"
+    android:layout_below="@+id/ut42"
+    android:layout_toEndOf="@+id/ut32" />
+    <Button
+        android:background="#00000000"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:id="@+id/ut62"
+        android:layout_below="@+id/ut52"
+        android:layout_toEndOf="@+id/ut42" />
+    <Button
+        android:background="#00000000"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/ut72"
+        android:layout_below="@+id/ut82"
+        android:layout_toEndOf="@+id/ut52" />
+    <Button
+        android:background="#00000000"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:layout_below="@+id/ut62"
+        android:layout_alignStart="@+id/ut62"
+        android:id="@+id/ut82"/>
+</RelativeLayout>
